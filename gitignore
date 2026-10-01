@@ -1,0 +1,47 @@
+# ── macOS ──
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Windows ──
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── Editors ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Skill packages (build these from the repo, don't commit them) ──
+*.zip
+*.skill
+
+# ── Generated outputs from test runs ──
+*-video-prompts*.txt
+*-prompts*.txt
+outputs/
+tests/output/
+
+# ── Media from test runs (images, clips, voiceovers) ──
+*.mp4
+*.mov
+*.webm
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# ── Local notes and secrets ──
+.env
+.env.*
+notes/
+scratch/
